@@ -1,8 +1,6 @@
-# Stack Overflow theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-stackoverflow.svg)](http://badge.fury.io/js/jsonresume-theme-stackoverflow)
+# Stack Overflow theme for jsonresume
 
 **Printable version with custom CSS**
-
-[DEMO](https://themes.jsonresume.org/stackoverflow)
 
 ## Getting started
 
@@ -25,7 +23,7 @@ Clone the repository
 npm install jsonresume-theme-stackoverflow
 ```
 
-then change directory: 
+then change directory:
 
 `cd node_modules/jsonresume-theme-stackoverflow/`
 
@@ -61,14 +59,14 @@ With stackoverflow theme it is possible to add:
 - `location` to each 'work', 'education' and 'volunteer' item
 - `birth` to 'basics'
 
-example of the extra `location` object: 
+example of the extra `location` object:
 
 ```
 "location": {
   "city": "Zürich",
   "countryCode": "CH",
   "region": "Switzerland"
-} 
+}
 ```
 example of the extra `birth` object:
 
@@ -79,12 +77,6 @@ example of the extra `birth` object:
   "date": "1988"
 }
 ```
-
-## Contribution
-
-Fork the project, add your feature (or fix your bug) and open a pull request OR
-
-[Open an issue](https://github.com/francescoes/jsonresume-theme-stackoverflow/issues/new) if you find find or if you would like to have extra fields or changes 
 
 ## License
 
